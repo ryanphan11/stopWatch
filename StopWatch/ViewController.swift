@@ -11,12 +11,13 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var secondLabel: UILabel!
     var data = [String]()
     var timer = Timer()
     var second = 0
   
     
-    @IBOutlet weak var secondLabel: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
