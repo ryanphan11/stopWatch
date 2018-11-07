@@ -14,6 +14,7 @@
 		3C5AEF0B218D013100F76759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5AEF09218D013100F76759 /* LaunchScreen.storyboard */; };
 		3C5AEF16218D013100F76759 /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AEF15218D013100F76759 /* StopWatchTests.swift */; };
 		3C5AEF21218D013100F76759 /* StopWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AEF20218D013100F76759 /* StopWatchUITests.swift */; };
+		3C5AEF2F218D061500F76759 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5AEF2E218D061500F76759 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C5AEF1C218D013100F76759 /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C5AEF20218D013100F76759 /* StopWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchUITests.swift; sourceTree = "<group>"; };
 		3C5AEF22218D013100F76759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5AEF2E218D061500F76759 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				3C5AEF00218D012F00F76759 /* AppDelegate.swift */,
 				3C5AEF02218D012F00F76759 /* ViewController.swift */,
 				3C5AEF04218D012F00F76759 /* Main.storyboard */,
+				3C5AEF2E218D061500F76759 /* TableViewController.swift */,
 				3C5AEF07218D013100F76759 /* Assets.xcassets */,
 				3C5AEF09218D013100F76759 /* LaunchScreen.storyboard */,
 				3C5AEF0C218D013100F76759 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C5AEF03218D012F00F76759 /* ViewController.swift in Sources */,
+				3C5AEF2F218D061500F76759 /* TableViewController.swift in Sources */,
 				3C5AEF01218D012F00F76759 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
